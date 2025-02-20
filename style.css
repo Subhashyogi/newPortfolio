@@ -188,6 +188,7 @@ button {
     transition-property: color,fill,stroke;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     transition-duration: .15s;
+    border: 1px solid white;
 }
 
 .info{
@@ -743,3 +744,12 @@ img{
     color: #4f4f52;
     background: transparent;
 }
+
+
+
+/* @media (max-width:576px){
+    .left{
+        left: -110%;
+    }
+    
+} */
